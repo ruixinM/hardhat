@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EthCallTest",
+  "sourceName": "contracts/EthCallTest.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "caller",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50607680601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063fc9c8d3914602d575b600080fd5b6040805133815290519081900360200190f3fea26469706673582212206ec9dc93f8517d97cf0d1e6bc1e586d4a3a5dfa76c2ffd13000463371af6bf8e64736f6c63430008150033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063fc9c8d3914602d575b600080fd5b6040805133815290519081900360200190f3fea26469706673582212206ec9dc93f8517d97cf0d1e6bc1e586d4a3a5dfa76c2ffd13000463371af6bf8e64736f6c63430008150033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "dev": "npx hardhat run scripts/deploy.js --network opbnb",
+    "verify": "npx hardhat verify --network opbnb 0xFed1E68EcB57D0a5413ae74E9D6161F40FB47A41",
+    "verify:arguments": "npx hardhat verify --network opbnb --constructor-args arguments.js 0xd0B8D7bAB692040DA5879F4Df86c7bD97A58448c"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.8",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.10.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/hardhat-upgrades": "^1.23.1",
+    "dotenv": "^16.4.5",
+    "openzeppelin-solidity": "^2.2.0"
+  }
+}

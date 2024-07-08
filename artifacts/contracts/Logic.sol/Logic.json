@@ -1,0 +1,56 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Logic",
+  "sourceName": "contracts/Logic.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [],
+      "name": "CallSuccess",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "implementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "x",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052606360015534801561001557600080fd5b5061011e806100256000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630c55699c1460415780635c60da1b14605c578063d09de08a146085575b600080fd5b604960015481565b6040519081526020015b60405180910390f35b600054606e906001600160a01b031681565b6040516001600160a01b0390911681526020016053565b60496040516000907fd4c1379b05055358f3fa6e4ccdfedb07a73d2b3698e95c42d8dc5838961737e3908290a16001805460bd9160c2565b905090565b8082018082111560e257634e487b7160e01b600052601160045260246000fd5b9291505056fea26469706673582212205968a151bdd3397e1cc44e90e5367f51cfee9db44ba0a16f6e456706cd668b5e64736f6c63430008150033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630c55699c1460415780635c60da1b14605c578063d09de08a146085575b600080fd5b604960015481565b6040519081526020015b60405180910390f35b600054606e906001600160a01b031681565b6040516001600160a01b0390911681526020016053565b60496040516000907fd4c1379b05055358f3fa6e4ccdfedb07a73d2b3698e95c42d8dc5838961737e3908290a16001805460bd9160c2565b905090565b8082018082111560e257634e487b7160e01b600052601160045260246000fd5b9291505056fea26469706673582212205968a151bdd3397e1cc44e90e5367f51cfee9db44ba0a16f6e456706cd668b5e64736f6c63430008150033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
